@@ -1,5 +1,17 @@
 (function ($, undefined) {
-/* Filter cell operator messages */
+/* FlatColorPicker messages */
+
+if (kendo.ui.FlatColorPicker) {
+kendo.ui.FlatColorPicker.prototype.options.messages =
+$.extend(true, kendo.ui.FlatColorPicker.prototype.options.messages,{
+  "apply": "Zatwierdź",
+  "cancel": "Anuluj",
+  "noColor": "Brak koloru",
+  "clearColor": "Wyczyść kolor"
+});
+}
+
+/* FilterCell operators */
 
 if (kendo.ui.FilterCell) {
 kendo.ui.FilterCell.prototype.options.operators =
