@@ -23,6 +23,22 @@ $.extend(true, kendo.ui.ColorPicker.prototype.options.messages,{
 });
 }
 
+/* ColumnMenu messages */
+
+if (kendo.ui.ColumnMenu) {
+kendo.ui.ColumnMenu.prototype.options.messages =
+$.extend(true, kendo.ui.ColumnMenu.prototype.options.messages,{
+  "sortAscending": "Sortuj rosnąco",
+  "sortDescending": "Sortuj malejąco",
+  "filter": "Filtr",
+  "columns": "Kolumny",
+  "done": "Zatwierdź",
+  "settings": "Ustawienia kolumn",
+  "lock": "Zablokuj",
+  "unlock": "Odblokuj"
+});
+}
+
 /* FilterCell operators */
 
 if (kendo.ui.FilterCell) {
