@@ -448,7 +448,7 @@ $.extend(true, kendo.ui.Scheduler.prototype.options.messages,{
 if (kendo.ui.Dialog) {
 kendo.ui.Dialog.prototype.options.messages =
 $.extend(true, kendo.ui.Dialog.prototype.options.localization, {
-  "close": "Zamknąć"
+  "close": "Zamknij"
 });
 }
 
