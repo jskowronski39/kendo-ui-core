@@ -11,6 +11,18 @@ $.extend(true, kendo.ui.FlatColorPicker.prototype.options.messages,{
 });
 }
 
+/* ColorPicker messages */
+
+if (kendo.ui.ColorPicker) {
+kendo.ui.ColorPicker.prototype.options.messages =
+$.extend(true, kendo.ui.ColorPicker.prototype.options.messages,{
+  "apply": "Zatwierdź",
+  "cancel": "Anuluj",
+  "noColor": "Brak koloru",
+  "clearColor": "Wyczyść kolor"
+});
+}
+
 /* FilterCell operators */
 
 if (kendo.ui.FilterCell) {
